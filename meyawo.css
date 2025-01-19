@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+
+:root{
+  --font-family-sans-serif: "Open Sans", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.cursive{
+    font-family: 'Baloo Paaji', cursive;
+    color: #454360;
+}
+
+.header-content {
+    margin-top: 20px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    max-width: 550px;
+    font-family: 'Baloo Paaji', cursive;
+  }
+  
+ .header-content .header-title .up {
+    font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 5px;
+    position: relative;
+    display: block;
+    font-family: 'Baloo Paaji', cursive;
+  }
+  
+.header-content .header-title .down {
+    font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
+    margin-bottom: 0;
+    position: relative;
+    display: block;
+    font-family: 'Baloo Paaji', cursive;
+  }
+  
+.header-content .header-subtitle {
+    font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
+    letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+    opacity: .8;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  .header .header-content .btn {
+    position: relative;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 8px 15px;
+  }
+
+.navbar-brand{
+    color: black !important;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+
+#projects .container .col-md-4{
+  height: 375px !important;
+}
+
+.blog-item{
+  height: 345px;
+}
+
+.service-box{
+  height: 500px;
+  justify-items: center;
+}
+.meyawoForm{
+  border-radius: 10px !important;
+  font-weight: lighter;
+}
+
+h1{
+  color: #FFD15C;
+}
+.price-item img{
+  width: 175px;
+  height: 175px;
+} 
+.pricing-card a:active{
+  border-color: #65a589;
+}
+.plan{
+  font-weight: 100;
+  font-family: cursive;
+}
+.bg-primary{
+  background: #f11459 !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bg-primary button{
+  height: 60px;
+  padding: 0;
+  width: 250px;
+  border-radius: 10px !important;
+}
+.bg-primary .container{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.bg-primary h6{
+  font-size: 25px;
+  font-weight: 100;
+}
+.bg-primary p{
+  font-family: sans-serif;
+  color: black !important;
+  font-style: italic;
+}
+.meywavoThumb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meyawoContact{
+  max-height: 300px !important;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meyawoContact .meywavoThumb img{
+  max-height: 300px !important;
+  width: auto !important;
+  padding: 0;
+}
+.meyawoGreen{
+  background: rgb(219 254 1) !important;
+}
+.meyawoBlue{
+  background: rgb(113 203 255) !important;
+}
+.meyawoRed{
+  background: rgb(255 102 99) !important;
+}
+.meyawoLightBlack{
+  color: black;
+  font-weight: 200;
+}
+.meyawoDarkBlack{
+  color: black;
+  font-weight: 500 !important;
+}
+.meyawoBlack{
+  color: black !important;
+  font-weight: 100 !important;
+}

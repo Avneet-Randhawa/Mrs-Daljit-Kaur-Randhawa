@@ -1,0 +1,55 @@
+#comments{
+    min-height: 120vh;
+    width: 100vw;
+    padding-bottom: 40px;
+    background-image: url('nothing.png');
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+.commentsContainer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: fit-content;
+    width: 80%;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 5px grey;
+    display: none;
+}
+.identity{
+    display: flex;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.element img{
+    border-radius: 50%;
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+.content{
+    padding-left: 60px;
+    padding-right: 5px;
+    text-align: left;
+    font-style: italic;
+}
+.name{
+    color: rgb(64, 64, 64);
+    font-size: 20px;
+    padding-top: 2px;
+    padding-left: 10px;
+    font-family: 'Baloo Paaji', cursive;
+    font-weight: lighter;
+    text-align: left;
+    word-wrap: break-word;
+    width: 100%;
+    overflow: hidden;
+}
+.element{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
